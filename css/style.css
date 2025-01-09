@@ -1,0 +1,49 @@
+/*Set the entire page font to Helvetica*/
+body {
+      font-family: Helvetica;
+}
+
+/*Set the header h1 style at the top of the page*/
+header h1 {
+    background-image: url('../resources/pattern.jpeg');
+    font-size: 100px;
+    font-weight: bold;
+    color: khaki;
+    text-align: center;
+    margin: 50px auto;
+}
+
+/*Set the style for all article h2 elements in the page*/
+article h2 {
+    font-weight: bold;
+    font-size: 32px;
+    color: white;
+    width: 100%;
+}
+
+/*Set the style for all article h3 subtitle elements in the page*/
+article h3 {
+    font-weight: bold;
+}
+
+/*Set the style for all spans with the class .price in the page*/
+.price {
+    font-weight: bold;
+    color: blue;
+}
+
+/*Set the background color for the h2 element in the article with id "brushes"*/
+#brushes h2 {
+    background-color: mediumspringgreen;
+}
+
+/*Set the background color for the h2 element in the article with id "frames"*/
+#frames h2 {
+    background-color: lightcoral;
+}
+
+
+/*Set the background color for the h2 element in the article with id "paint"*/
+#paint h2 {
+    background-color: skyblue;
+}
